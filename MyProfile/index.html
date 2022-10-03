@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Main Page</title>
+
+<link rel="stylesheet" href="css.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</style>
+
+</head>
+<body class="body">
+
+
+
+    <header>
+            <!-- Navigation Bar -->
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>  
+        <a href="profile.html">My Profile</a>
+        <a href="contact.html">Contact</a>
+        
+    </div>
+
+      </header>
+      
+      <section>
+                  <!-- My Resume - Index Page -->
+
+                  <div class="stuff">
+
+                    <!-- Container for the image gallery -->
+<div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 3</div>
+        <img src="images/Thumbnail Images/html.jpg" >
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 3</div>
+        <img src="images/Thumbnail Images/css.jpg" >
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 3</div>
+        <img src="images/Thumbnail Images/js.jpeg" width="1px" height="1px" >
+    </div>
+
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="images/Thumbnail Images/html.jpg" style="width:100%" onclick="currentSlide(1)" alt="HTML Proficiency">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Thumbnail Images/css.jpg" style="width:100%" onclick="currentSlide(2)" alt="CSS Proficiency">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="images/Thumbnail Images/js.jpeg" style="width:100%" onclick="currentSlide(3)" alt="JAVA-SCRIPT  Proficiency">
+      </div>
+
+    </div>
+  </div>
+                </div>
+                
+      </section>
+      
+      <aside>
+                                <!-- My Profile Card - Index Page -->
+ 
+                                <div class="card">
+                                    <img src="images/blue shirt.png"  alt="Brian" >
+                                    <h1>Brian</h1>
+                                    <p>Muranga University</p>
+                
+                                    <div style="margin: 24px 0;">
+                                        <a class="a" href="#"><i class="fa fa-twitter"></i></a>  
+                                        <a class="a" href="#"><i class="fa fa-linkedin"></i></a>  
+                                        <a class="a" href="#"><i class="fa fa-facebook"></i></a> 
+                                    </div>
+                
+                                    <p><button onclick="document.location='contact.html'">Contact</button></p>
+                                </div>
+      </aside>
+      
+      <footer>
+        <!-- <code>&#60;footer&#62;</code> -->
+        <div id=footer>           
+             <h2 id="name">Brian</h2>      
+        </div>
+      </footer>
+
+<script src="javascript.js"></script>         
+</body>
+</html>
